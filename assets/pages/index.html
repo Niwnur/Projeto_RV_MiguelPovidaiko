@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade RV - 1</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+                     <!-- repositório dos itens a serem inseridos -->
+                      <img id="ceu" src="../imgs/pexels-nicole-avagliano-1132392-2312040.jpg">                      
+                      <img id="terra" src="../imgs/terra.jpg">
+
+        </a-assets>
+        <a-sphere src="#terra" position="4 0 -3
+        " color="white" radius="2"></a-sphere>
+        <a-box position="4 0 -10
+        " color="cyan" ></a-box>
+        <a-cylinder position="-4 0 -3" rotation="0 0 0" color="yellow"></a-cylinder>
+        <a-sky src="#ceu"></a-sky>
+        <a-camera position="0 1.6 0">
+            
+        </a-camera>
+    </a-scene>
+</body>
+</html>
